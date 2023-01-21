@@ -39,7 +39,7 @@ def deposit ():
 	global account_bal
 	amo=float(amount.get())
 	bal= account_bal+amo
-	label3.config(text=("Balance:",str(bal)))
+	label3.config(text=("Minimum Balance:",str(bal)))
 btndeposit=Button(F2,bd=5,text="Deposit",bg="white",command=deposit)
 btndeposit.grid(row=4,column=8)
 
